@@ -7,4 +7,4 @@
 ###SELECT MenuID,MenuName FROM cf_privilege,sys_menu ,cf_user,cf_userrole,cf_role WHERE cf_user.LoginName="test1" and cf_user.UserID=cf_userrole.UserID and cf_privilege.PrivilegeMaster="CF_Role" and cf_privilege.privilegeMasterKey=cf_role.RoleID
 ###AND cf_privilege.PrivilegeAccess="Sys_Menu" and cf_privilege.PrivilegeAccessKey=sys_menu.MenuID and cf_privilege.PrivilegeOperation="Permit"
 
-<img src="" />
+<img src="https://github.com/Tom15King/RBAC/blob/master/1.JPG" />
